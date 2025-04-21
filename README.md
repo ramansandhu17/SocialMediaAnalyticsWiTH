@@ -29,41 +29,35 @@ This open-source project analyzes social media data from LinkedIn and Facebook f
 
 ## 📁 Project Structure
 
-social-media-analytics-volunteer/
-│
-├── data/
-│   ├── raw/                          # Raw LinkedIn & Facebook data
-│   └── cleaned/                      # Cleaned and preprocessed datasets
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb        # Data cleaning steps
-│   ├── 02_exploratory_analysis.ipynb # Visual EDA
-│   ├── 03_feature_engineering.ipynb  # Creating new features for modeling
-│   ├── 04_modeling.ipynb             # ML model for engagement prediction
-│   └── 05_ab_testing.ipynb           # A/B testing content strategy
-│
-├── scripts/
-│   ├── clean_data.py                 # Modular data cleaning script
-│   ├── run_model.py                  # Script to train/predict using model
-│   └── ab_test_utils.py              # Helper functions for A/B testing
-│
-├── models/
-│   └── engagement_predictor.pkl      # Saved model for reuse (optional)
-│
-├── visualizations/
-│   ├── tableau_dashboard.twb         # Tableau dashboard file
-│   └── streamlit_app/
-│       └── app.py                    # Optional web app for demo
-│
-├── reports/
-│   ├── final_report.pdf              # Full insights report
-│   └── model_summary.md              # Modeling write-up
-│
-├── requirements.txt                  # Python dependencies
-└── README.md                         # Project overview and documentation
+- **`data/`**
+  - `raw/` – Raw LinkedIn & Facebook data  
+  - `cleaned/` – Cleaned and preprocessed datasets  
 
+- **`notebooks/`**
+  - `01_data_cleaning.ipynb` – Data cleaning steps  
+  - `02_exploratory_analysis.ipynb` – Visual EDA  
+  - `03_feature_engineering.ipynb` – Creating new features for modeling  
+  - `04_modeling.ipynb` – ML model for engagement prediction  
+  - `05_ab_testing.ipynb` – A/B testing content strategy  
 
----
+- **`scripts/`**
+  - `clean_data.py` – Modular data cleaning script  
+  - `run_model.py` – Script to train/predict using model  
+  - `ab_test_utils.py` – Helper functions for A/B testing  
+
+- **`models/`**
+  - `engagement_predictor.pkl` – Saved model for reuse (optional)  
+
+- **`visualizations/`**
+  - `tableau_dashboard.twb` – Tableau dashboard file  
+  - `streamlit_app/app.py` – Optional web app for model demo  
+
+- **`reports/`**
+  - `final_report.pdf` – Full insights report  
+  - `model_summary.md` – Modeling write-up  
+
+- **`requirements.txt`** – Python dependencies  
+- **`README.md`** – Project overview and documentation
 
 ## Outcomes
 
