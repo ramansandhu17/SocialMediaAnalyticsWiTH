@@ -29,7 +29,55 @@ This open-source project analyzes social media data from LinkedIn and Facebook f
 
 ## 📁 Project Structure
 
-├── data/ │ ├── raw/ # Raw LinkedIn & Facebook data │ └── cleaned/ # Cleaned datasets │ ├── notebooks/ │ ├── 01_data_cleaning.ipynb │ ├── 02_exploratory_data_analysis.ipynb │ ├── 03_feature_engineering.ipynb │ ├── 04_modeling_engagement_prediction.ipynb │ └── 05_ab_testing_post_formats.ipynb │ ├── visualizations/ │ ├── tableau_dashboard.twb │ └── streamlit_app/ │ └── app.py │ ├── models/ │ └── engagement_predictor.pkl │ ├── reports/ │ ├── final_report.pdf │ └── model_summary.md │ ├── scripts/ │ └── clean_data.py, run_model.py, ab_test_utils.py │ ├── requirements.txt └── README.md
+social-media-analytics-volunteer/
+│
+├── data/
+│   ├── raw/                          # Raw LinkedIn & Facebook data
+│   └── cleaned/                      # Cleaned and preprocessed datasets
+│
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb        # Data cleaning steps
+│   ├── 02_exploratory_analysis.ipynb # Visual EDA
+│   ├── 03_feature_engineering.ipynb  # Creating new features for modeling
+│   ├── 04_modeling.ipynb             # ML model for engagement prediction
+│   └── 05_ab_testing.ipynb           # A/B testing content strategy
+│
+├── scripts/
+│   ├── clean_data.py                 # Modular data cleaning script
+│   ├── run_model.py                  # Script to train/predict using model
+│   └── ab_test_utils.py              # Helper functions for A/B testing
+│
+├── models/
+│   └── engagement_predictor.pkl      # Saved model for reuse (optional)
+│
+├── visualizations/
+│   ├── tableau_dashboard.twb         # Tableau dashboard file
+│   └── streamlit_app/
+│       └── app.py                    # Optional web app for demo
+│
+├── reports/
+│   ├── final_report.pdf              # Full insights report
+│   └── model_summary.md              # Modeling write-up
+│
+├── requirements.txt                  # Python dependencies
+└── README.md                         # Project overview and documentation
+
+
+---
+
+## Outcomes
+
+- Insightful dashboard for stakeholders
+- Predictive model for engagement forecasting
+- A/B testing framework for content optimization
+- End-to-end open-source analytics workflow
+
+---
+
+## About Me
+
+I'm a data professional volunteering with WiTH Data to help nonprofit teams gain insights from their social media performance. 
+---
 
 
 
