@@ -1,0 +1,4 @@
+caption_length_words,caption_length_chars,month,hour,clicks,impressions,click_through_rate_(ctr),engagement_rate,day_of_week_Monday,day_of_week_Saturday,day_of_week_Sunday,day_of_week_Thursday,day_of_week_Tuesday,day_of_week_Wednesday,predicted_engagement
+25,150,7,9,40,2500,1.6,3.8,1,0,0,0,0,0,38.59513085843277
+15,90,7,14,30,2000,1.4,3.2,0,0,0,1,0,0,38.59513085843277
+12,70,7,17,20,1800,1.2,2.9,0,0,0,0,1,0,28.096857502960976
