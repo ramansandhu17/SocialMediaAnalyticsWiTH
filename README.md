@@ -12,7 +12,6 @@ This open-source project analyzes social media data from LinkedIn and Facebook f
 - Track and visualize engagement trends across platforms
 - Identify top-performing post formats and themes
 - Build a predictive model for post engagement
-- Run A/B tests to experiment with content strategies
 - Create an interactive dashboard for stakeholders
 
 ---
@@ -31,30 +30,23 @@ This open-source project analyzes social media data from LinkedIn and Facebook f
 
 - **`data/`**
   - `raw/` – Raw LinkedIn & Facebook data  
-  - `cleaned/` – Cleaned and preprocessed datasets  
+  - `cleaned/` – Cleaned and preprocessed datasets  for both Q1 and Q1 2025
 
 - **`notebooks/`**
-  - `01_data_cleaning.ipynb` – Data cleaning steps  
-  - `02_exploratory_analysis.ipynb` – Visual EDA  
-  - `03_feature_engineering.ipynb` – Creating new features for modeling  
-  - `04_modeling.ipynb` – ML model for engagement prediction  
-  - `05_ab_testing.ipynb` – A/B testing content strategy  
-
-- **`scripts/`**
-  - `clean_data.py` – Modular data cleaning script  
-  - `run_model.py` – Script to train/predict using model  
-  - `ab_test_utils.py` – Helper functions for A/B testing  
-
+  - `data_cleaning.ipynb` – Data cleaning steps  
+  - `exploratory_analysis.ipynb` – Visual EDA  
+  - `feature_engineering.ipynb` – Creating new features for modeling  
+  - `model_training.ipynb` – ML model for engagement prediction   
+ 
 - **`models/`**
-  - `engagement_predictor.pkl` – Saved model for reuse (optional)  
+  - `post_recommender_model.pkl` – Saved model for reuse 
 
 - **`visualizations/`**
-  - `tableau_dashboard.twb` – Tableau dashboard file  
-  - `streamlit_app/app.py` – Optional web app for model demo  
+  - `WiTH Q2 2025.twbx` – Tableau dashboard file   
 
 - **`reports/`**
-  - `final_report.pdf` – Full insights report  
-  - `model_summary.md` – Modeling write-up  
+  - `final_report.pdf` – Full insights report
+  - `recommded_post_ideas_csv` 
 
 - **`requirements.txt`** – Python dependencies  
 - **`README.md`** – Project overview and documentation
@@ -63,7 +55,6 @@ This open-source project analyzes social media data from LinkedIn and Facebook f
 
 - Insightful dashboard for stakeholders
 - Predictive model for engagement forecasting
-- A/B testing framework for content optimization
 - End-to-end open-source analytics workflow
 
 ---
